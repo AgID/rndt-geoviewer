@@ -1,0 +1,12 @@
+h1 {
+  color: navy;
+}
+h2 {
+  color: yellow;
+}
+a {
+  color: MediumBlue;
+}
+img { border: 1px solid  #191970; }
+.navbar img {border: none;}
+
