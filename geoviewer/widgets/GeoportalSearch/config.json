@@ -1,0 +1,26 @@
+{
+  "useProxy":true,
+  "configText":"abcdefg",
+  "layer": {
+    "url": "",
+    "expression": "",
+    "textsearchlabel": "",
+    "textsearchhint": "",
+    "titlefield": "",
+    "linkfield": "",
+    "fields": {
+      "all": false,
+      "field": []
+    }
+  },
+  "defaultValue": "",
+  "zoomscale": 10000,
+  "symbol": null,
+  "shareResult":false,
+  "catalogs": [
+    {
+      "name": "Catalogo RNDT",
+      "url": "https://geodati.gov.it/geoportalRNDTPA/rest/find/document"
+    }
+  ]
+}

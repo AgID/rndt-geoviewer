@@ -1,0 +1,29 @@
+{
+  "configText":"abcdefg",
+  "layer": {
+    "url": "",
+    "expression": "",
+    "textsearchlabel": "",
+    "textsearchhint": "",
+    "titlefield": "",
+    "linkfield": "",
+    "fields": {
+      "all": false,
+      "field": []
+    }
+  },
+  "defaultValue": "",
+  "zoomscale": 10000,
+  "symbol": null,
+  "shareResult":false,
+  "catalogs": [
+    {
+      "name": "Catalogo Ispra",
+      "url": "http://geoportale.isprambiente.it/geoportale/rest/find/document"
+    },
+    {
+      "name": "Geoportale Comune di Milano",
+      "url": "https://metadata.comune.milano.it/geoportal/rest/find/document"
+    }
+  ]
+}
