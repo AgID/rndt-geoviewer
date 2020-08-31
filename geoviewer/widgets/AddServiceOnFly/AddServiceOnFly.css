@@ -1,0 +1,43 @@
+.AddServiceOnFly-Note{
+ color: red;
+}
+.AddServiceOnFly-InputCatalogo,.AddServiceOnFly-SelectCartelle,.AddServiceOnFly-SelectServizi,.AddServiceOnFly-InputUrl{
+ width: 400px !important;
+}
+.AddServiceOnFly-RadioButtonDiv{
+ margin-top: 10px;
+}
+.AddServiceOnFly-Container{
+ margin: 10px;
+}
+
+.AddServiceOnFly-Select{
+ margin-top: 10px;
+}
+.AddServiceOnFly-ButtonAdd{
+ margin-top: 15px;
+ float: right;
+}
+.AddServiceOnFly-InfoServizio{
+ border: 1px solid black;
+ display: none;
+ margin-top: 10px;
+ width: 400px;
+}
+.AddServiceOnFly-ContainerResult{
+ margin-top: 10px;
+}
+.SelectServiziForInput{
+ width: 100px !important;
+}
+
+/* IE6 css fixer v0.95: Fri, 26 Oct 2012 12:48:58 +0200 */
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add display:inline to floated elements */
+*:first-child+html .AddServiceOnFly-ButtonAdd {display:inline;}
+
+/* add overflow:visible to (submit) buttons */
+ *:first-child+html input[type="submit"], *:first-child+html button {overflow:visible;}

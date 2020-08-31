@@ -1,0 +1,120 @@
+<div>
+
+  <div id="tabContainer" data-dojo-attach-point="tabAddOnFly">
+    <div id="tab1" data-dojo-props="selected:true" class="search-tab-node" data-dojo-attach-point="tabNode1">
+
+		<div class="AddServiceOnFly-Container" id="AddServiceOnFly-Container">
+			<div style="height:10px; width:100%"></div>			
+			<input type="radio" name="tab1Radio" id="catRadio" checked value="catRadioValue"/> <label for="catRadio">${nls.TOOL_ADDSERVICEONFLY_34}</label> <br />
+	
+			<div class="AddServiceOnFly-Note" id="AddServiceOnFly_NoteMessage"></div>
+			<div style="height:10px; width:100%"></div>			
+			<div id="CatalogContainer">
+				<div>${nls.TOOL_ADDSERVICEONFLY_2}</div>
+				<div class="AddServiceOnFly-Select">
+					<span>
+						<select class="AddServiceOnFly-SelectCartelle" name="AddServiceOnFly_InputCatalogo" id="AddServiceOnFly_InputCatalogo">
+						  <option value="-1">-</option>
+						</select>
+						<!--input type="text" class="AddServiceOnFly-InputCatalogo" name="AddServiceOnFly_InputCatalogo" value=""
+						style="width:80%;margin-top:5px;" data-dojo-type="dijit.form.TextBox" data-dojo-props="trim:true" id="AddServiceOnFly_InputCatalogo" 
+						placeholder="${nls.TOOL_ADDSERVICEONFLY_7}"/-->
+						
+						<!--img src="./widgets/AddServiceOnFly/images/i_icp.png" id="AddServiceOnFly_InputCatalogo_img" style='border:0; vertical-align: middle;cursor:pointer;' /-->
+					</span>
+				</div>
+				<div style="height:7px; width:100%"></div>			
+				<div id="CartelleDiv" class="AddServiceOnFly-Select">
+					<div>${nls.TOOL_ADDSERVICEONFLY_3}</div>
+					<span><select class="AddServiceOnFly-SelectCartelle" name="AddServiceOnFly_SelectCartelle" id="AddServiceOnFly_SelectCartelle" disabled="disabled">
+							<option value="-1">-</option>
+						  </select>
+					</span>
+				</div>
+				<div style="height:7px; width:100%"></div>			
+				<div>${nls.TOOL_ADDSERVICEONFLY_25}</div>
+				<div>
+					<span>
+						<select class="AddServiceOnFly-SelectServiziForInput" name="AddServiceOnFly_SelectServiziForInput" id="AddServiceOnFly_SelectServiziForInput">
+								<option value="Nessun Filtro">${nls.NoneFilter}</option>
+								<option value="MapServer">${nls.MapServFilter}</option>
+								<option value="FeatureServer">${nls.FeatServFilter}</option>
+								<option value="ImageServer">${nls.ImageServFilter}</option>
+						</select>
+					</span>
+				</div>
+				<div style="height:7px; width:100%"></div>			
+				<div id="AddServiceOnFly_ServiziDiv" class="AddServiceOnFly-Select">
+					<div>${nls.TOOL_ADDSERVICEONFLY_4}</div>
+						<span><select class="AddServiceOnFly-SelectServizi" name="AddServiceOnFly_SelectServizi" id="AddServiceOnFly_SelectServizi" disabled="disabled">
+								<option value="-1">-</option>
+							  </select>
+						</span>
+				</div>
+				<div style="height:7px; width:100%"></div>			
+			</div>
+			<hr />
+
+			<div style="height:10px; width:100%"></div>			
+			<input type="radio" data-dojo-type="dijit/form/RadioButton" name="tab1Radio" id="servRadio" value="servRadioValue"/> <label for="servRadio">${nls.TOOL_ADDSERVICEONFLY_35}</label> <br />
+
+			<div style="height:7px; width:100%"></div>			
+			<div id="ServiceContainer" class="AddServiceOnFly-Select" style="padding: 15px;">
+				<div>${nls.TOOL_ADDSERVICEONFLY_24}</div>
+				<div>
+				  <img src="./widgets/AddServiceOnFly/images/i_icp.png" id="AddServiceOnFly_SelectServiziForInput_img" style='display:none; float:right; border:0; margin: 5px;cursor:pointer;'/>	
+				  <input type="text" class="AddServiceOnFly-InputUrl" name="AddServiceOnFly_InputUrl" value="" style="width:80%;margin-top:5px;" data-dojo-type="dijit.form.TextBox" data-dojo-props="trim:true" placeHolder="${nls.TOOL_ADDSERVICEONFLY_23}" id="AddServiceOnFly_InputUrl" data-dojo-id="AddServiceOnFly_InputUrl_DijitControl"/>
+				  
+				</div>
+				<div style="height:7px; width:100%"></div>			
+
+			</div>
+			<div style="height:7px; width:100%"></div>			
+			<hr />
+			<!--span>
+				<label>Visualizza i dettagli sul servizio</label>
+				<img src="./widgets/AddServiceOnFly/images/i_icp.png" id="AddServiceOnFly_SelectServiziForInput_img" style='border:0; vertical-align: middle;cursor:pointer;'/>	
+			</span-->
+			<div id="AddServiceOnFly_InfoServizio" class="AddServiceOnFly-InfoServizio"></div>
+			<div id="AddServiceOnFly_ButtonAdd" class="AddServiceOnFly-ButtonAdd"></div>
+	    </div>
+
+    </div>
+    <div class="search-tab-node" data-dojo-attach-point="tabNode2">
+		<div style="height:10px; width:100%"></div>			
+		<div class="AddServiceOnFly-Select">
+			<div>${nls.TOOL_ADDSERVICEONFLY_24}</div>
+			<div>
+				<span>
+					<input type="text" class="AddServiceOnFly-InputUrl" name="AddServiceOnFly_WMSInputUrl" value="" style="width:80%;margin-top:5px;" data-dojo-type="dijit.form.TextBox" data-dojo-props="trim:true" placeHolder="${nls.TOOL_ADDSERVICEONFLY_23}" id="AddServiceOnFly_WMSInputUrl" data-dojo-id="AddServiceOnFly_WMSInputUrl_DijitControl"/>
+					<img src="./widgets/AddServiceOnFly/images/i_icp.png" id="AddServiceOnFly_WMSInput_img" style='border:0; vertical-align: middle;cursor:pointer;' />
+				</span>
+			</div>
+			<div style="height:7px; width:100%"></div>			
+
+		</div>
+		<hr />
+		<div id="AddServiceOnFly_WMSInfoServizio" class="AddServiceOnFly-InfoServizio"></div>
+		<div id="AddServiceOnFly_WMSButtonAdd" class="AddServiceOnFly-ButtonAdd"></div>
+    </div>
+    <div class="search-tab-node" data-dojo-attach-point="tabNode3">
+		<div style="height:10px; width:100%"></div>			
+		<div class="AddServiceOnFly-Select">
+			<div>${nls.TOOL_ADDSERVICEONFLY_32}</div>
+			<div>
+				<span>
+					<input type="text" class="AddServiceOnFly-InputUrl" name="AddServiceOnFly_AGOLInputID" value="" style="width:80%;margin-top:5px;" data-dojo-type="dijit.form.TextBox" data-dojo-props="trim:true" placeHolder="${nls.TOOL_ADDSERVICEONFLY_33}" id="AddServiceOnFly_AGOLInputID" data-dojo-id="AddServiceOnFly_AGOLInputID_DijitControl"/>
+					<img src="./widgets/AddServiceOnFly/images/i_icp.png" id="AddServiceOnFly_AGOLInput_img" style='border:0; vertical-align: middle;cursor:pointer;' />
+				</span>
+			</div>
+			<div style="height:7px; width:100%"></div>			
+
+		</div>
+<!--		<div id="AddServiceOnFly_AGOLInfoServizio" class="AddServiceOnFly-InfoServizio"></div>
+		<div id="AddServiceOnFly_AGOLButtonAdd" class="AddServiceOnFly-ButtonAdd"></div>   -->
+	</div>
+  </div>
+  <div data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-attach-point="shelter" data-dojo-props="hidden:true"></div>
+	
+	
+</div>

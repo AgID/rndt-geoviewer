@@ -1,0 +1,16 @@
+{
+   "catalogs": [
+      { "name": "Servizio Geologico d'Italia",
+        "url": "http://sgi2.isprambiente.it/arcgis/rest/services/"
+      },
+      { "name": "ISPRA",
+        "url": "http://geoservices.isprambiente.it/arcgis/rest/services/"
+      },
+      { "name": "Arpa Catalogo Pubblico",
+        "url": "http://webgis.arpa.piemonte.it/ags101free/rest/services/"
+      },
+      { "name": "ISTAT",
+        "url": "http://gistat.istat.it/arcgis/rest/services/"
+      }
+    ] 
+}

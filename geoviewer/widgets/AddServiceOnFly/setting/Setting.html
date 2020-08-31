@@ -1,0 +1,16 @@
+<div>
+	<div class="bookmark-list" data-dojo-attach-point="bookmarkListNode"></div>
+
+	<div class="right-section">
+		<div class="info-section">
+			<span class="input-bookmark-name-wrapper">
+				<input class="jimu-input input-bookmark-name" data-dojo-attach-point="bookmarkNameNode" type="text" placeholder="${nls.placeholderBookmarkName}">
+			</span>			
+			<img class="choose-img" data-dojo-attach-point="chooseImgNode" data-dojo-attach-event="onclick:_onChooseImgClicked">
+			<div class="jimu-btn btn-ok" data-dojo-attach-point="okBtnNode" data-dojo-attach-event="onclick:_onOkBtnClicked">${nls.ok}</div>
+		</div>
+		<div class="jimu-state-error" data-dojo-attach-point="errorNode">&nbsp;</div>
+		<div class="extent-chooser" data-dojo-attach-point="extentChooserNode"></div>
+	</div>
+
+</div>

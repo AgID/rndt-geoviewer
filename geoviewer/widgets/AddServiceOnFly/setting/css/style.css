@@ -1,0 +1,101 @@
+@import url("../../common.css");
+.jimu-widget-bookmark-setting .bookmark-list, .jimu-widget-bookmark-setting .right-section{
+  float: left;
+}
+.jimu-widget-bookmark-setting .bookmark-list{
+  height: 100%;
+  width: 175px;
+  overflow: auto;
+}
+.jimu-widget-bookmark-setting .right-section{
+  position: absolute;
+  top: 0;
+  left: 180px;
+  right: 0;
+  bottom: 0;
+}
+.jimu-widget-bookmark-setting .extent-chooser{
+  height: 450px;
+}
+.jimu-widget-bookmark-setting .info-section{
+  position: relative; 
+  height: 30px; 
+  overflow: visible;
+}
+.jimu-widget-bookmark-setting .btn-ok{
+  position: absolute;
+  right: 1px;
+  top: 0px;
+  min-width: 36px;
+  padding:6px 8px;
+}
+.jimu-widget-bookmark-setting .choose-img{
+  position: absolute;
+  right: 45px;
+  top: 0px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.jimu-widget-bookmark-setting .input-bookmark-name-wrapper{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 100px;
+  height: 100%;
+}
+.jimu-widget-bookmark-setting .input-bookmark-name{
+  width: 100%;
+  height: 100%;
+}
+.jimu-widget-bookmark-setting .jimu-state-error{
+  margin-top: 4px;
+  visibility: hidden;
+}
+.jimu-widget-bookmark-setting .bookmark-add{
+  width: 155px;
+  height: 125px;
+  cursor: pointer;
+}
+.jimu-widget-bookmark-setting .bookmark-add .img-wrapper{
+  border: 1px solid rgba(0,0,0,0.2);
+}
+.jimu-widget-bookmark-setting .bookmark-add img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+.jimu-widget-bookmark-setting .bookmark{
+  width: 155px;
+  height: 125px;
+  cursor: pointer;
+}
+.jimu-widget-bookmark-setting .img-wrapper, .jimu-widget-bookmark-setting .bookmark .img-wrapper img{
+  width: 155px;
+  height: 95px;
+}
+.jimu-widget-bookmark-setting .img-wrapper{
+  position: relative;
+}
+.jimu-widget-bookmark-setting .label{
+  width: 100%;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+.jimu-widget-bookmark-setting .drop-btn{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(images/drop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
