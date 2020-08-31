@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<h1>Test download request</h1>
+
+<form action="ServiceFile.ashx" method="post">
+    <input type="hidden" name="operation" value="query">
+
+    <p>
+        <textarea name="jData" cols="100" rows="10">{"nameZip":"AggressioniDonne","queryParameter":{"returnGeometry":"true","geometryType":"esriGeometryEnvelope","where":"1 = 1","token":"sHBDyqPq9psVh8ZndH_O9ea32I_SCU-sdZhCYiquHHo.","spatialRel":"esriSpatialRelIntersects","f":"json"},"parameterAttribute":{},"files":[{"nameFile":"AggressioniDonne","url":"https://geoportale.comune.milano.it/arcgis/rest/services/OperationalLayers/AggressioniDonne/MapServer/0/query","outFields":["*"],"tabs":[{"nameTab":"AggressioniDonne","attributes":[]}]}]}</textarea>
+    </p>
+
+    <p>
+        <input type="submit" value="send">
+    </p>
+
+</form>
+
+</body>
+</html>
