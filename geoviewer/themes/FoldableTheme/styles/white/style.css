@@ -1,0 +1,56 @@
+.jimu-main-bgcolor{
+  background-color: white;
+}
+.jimu-btn{
+  color: black;
+
+  background: #FFFFFF; /* Old browsers */
+  background: -moz-linear-gradient(top, #FFFFFF 0%, #5c5f62 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(top, #FFFFFF 0%,#5c5f62 100%); /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(top, #FFFFFF 0%,#5c5f62 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #FFFFFF 0%,#5c5f62 100%); /* W3C */
+}
+.jimu-btn:hover{
+  background: #494d51; /* Old browsers */
+  background: -moz-linear-gradient(top, #494d51 0%, #363d3c 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(top, #494d51 0%,#363d3c 100%); /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(top, #494d51 0%,#363d3c 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #494d51 0%,#363d3c 100%); /* W3C */
+}
+.jimu-btn.jimu-state-disabled{
+  background: black;
+  color: #fff;
+  box-shadow: 0px 0px 0px 1px #d9dde0 inset;
+}
+.jimu-btn.jimu-state-disabled:hover{
+  background: #d9dde0; /* Old browsers */
+  color: #fff;
+}
+
+.jimu-foldable-panel .title, .jimu-title-panel .title{
+  color: black;
+  background-color: #d9dde0;
+}
+
+.jimu-widget-header-controller .title{
+  color: black;
+}
+
+.jimu-widget-header-controller .icon-node{
+  background-color: #C2C2C2;
+}
+
+.jimu-main-background{
+  background-color: white !important;
+}
+
+.jimu-title{
+  color: black;
+}
+.jimu-subtitle{
+  color: black;
+}
+
+.jimu-link:link{
+	color: black;
+}
