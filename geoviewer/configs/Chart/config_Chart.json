@@ -1,0 +1,75 @@
+{
+  "charts": [
+    {
+      "url": "http://services.arcgis.com/nIbPrXGkjlJqLKTA/arcgis/rest/services/Censimento_Prov/FeatureServer/1",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "name": "Censimento_prov",
+      "description": "",
+      "mode": "feature",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "highLightColor": "#ff0000",
+      "webMapLayerId": null,
+      "column": {
+        "colors": [
+          "#5d9cd3"
+        ],
+        "horizontalAxis": true,
+        "verticalAxis": true
+      },
+      "pie": {
+        "colors": [
+          "#5d9cd3",
+          "#eb7b3a",
+          "#a5a5a5",
+          "#febf29",
+          "#4673c2",
+          "#72ad4c"
+        ],
+        "label": true
+      },
+      "bar": {
+        "colors": [
+          "#5d9cd3"
+        ],
+        "horizontalAxis": true,
+        "verticalAxis": true
+      },
+      "line": {
+        "colors": [
+          "#5d9cd3"
+        ],
+        "horizontalAxis": true,
+        "verticalAxis": true
+      },
+      "labelField": "PROVINCIA",
+      "valueFields": [
+        "DENSITA"
+      ],
+      "sortOrder": "asc"
+    }
+  ]
+}

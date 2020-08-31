@@ -1,0 +1,1220 @@
+{
+  "layerInfos": [
+    {
+      "name": "italfer_litologia - FINALE_5_GB_dwg_Point",
+      "id": "italfer_litologia_4651",
+      "layer": {
+        "url": "http://services1.arcgis.com/cFi1BRRsYB2fYqCl/arcgis/rest/services/italfer_litologia/FeatureServer/16",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Entity",
+            "alias": "Entity",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Handle",
+            "alias": "Handle",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Layer",
+            "alias": "Layer",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LyrFrzn",
+            "alias": "LyrFrzn",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrLock",
+            "alias": "LyrLock",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrOn",
+            "alias": "LyrOn",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrVPFrzn",
+            "alias": "LyrVPFrzn",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrHandle",
+            "alias": "LyrHandle",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Color",
+            "alias": "Color",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EntColor",
+            "alias": "EntColor",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrColor",
+            "alias": "LyrColor",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BlkColor",
+            "alias": "BlkColor",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Linetype",
+            "alias": "Linetype",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EntLinetype",
+            "alias": "EntLinetype",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LyrLnType",
+            "alias": "LyrLnType",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BlkLinetype",
+            "alias": "BlkLinetype",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Elevation",
+            "alias": "Elevation",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Thickness",
+            "alias": "Thickness",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LineWt",
+            "alias": "LineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EntLineWt",
+            "alias": "EntLineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrLineWt",
+            "alias": "LyrLineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BlkLineWt",
+            "alias": "BlkLineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "RefName",
+            "alias": "RefName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LTScale",
+            "alias": "LTScale",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Angle",
+            "alias": "Angle",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExtX",
+            "alias": "ExtX",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExtY",
+            "alias": "ExtY",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExtZ",
+            "alias": "ExtZ",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DocName",
+            "alias": "DocName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DocPath",
+            "alias": "DocPath",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DocType",
+            "alias": "DocType",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DocVer",
+            "alias": "DocVer",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ScaleX",
+            "alias": "ScaleX",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ScaleY",
+            "alias": "ScaleY",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ScaleZ",
+            "alias": "ScaleZ",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "TESTO",
+            "alias": "TESTO",
+            "show": true,
+            "format": null
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "italfer_litologia - FINALE_5_GB_dwg_Polyline",
+      "id": "italfer_litologia_5126",
+      "layer": {
+        "url": "http://services1.arcgis.com/cFi1BRRsYB2fYqCl/arcgis/rest/services/italfer_litologia/FeatureServer/17",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Entity",
+            "alias": "Entity",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Handle",
+            "alias": "Handle",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Layer",
+            "alias": "Layer",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LyrFrzn",
+            "alias": "LyrFrzn",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrLock",
+            "alias": "LyrLock",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrOn",
+            "alias": "LyrOn",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrVPFrzn",
+            "alias": "LyrVPFrzn",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrHandle",
+            "alias": "LyrHandle",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Color",
+            "alias": "Color",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EntColor",
+            "alias": "EntColor",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrColor",
+            "alias": "LyrColor",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BlkColor",
+            "alias": "BlkColor",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Linetype",
+            "alias": "Linetype",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EntLinetype",
+            "alias": "EntLinetype",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LyrLnType",
+            "alias": "LyrLnType",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BlkLinetype",
+            "alias": "BlkLinetype",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Elevation",
+            "alias": "Elevation",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Thickness",
+            "alias": "Thickness",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LineWt",
+            "alias": "LineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EntLineWt",
+            "alias": "EntLineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrLineWt",
+            "alias": "LyrLineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BlkLineWt",
+            "alias": "BlkLineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "RefName",
+            "alias": "RefName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LTScale",
+            "alias": "LTScale",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExtX",
+            "alias": "ExtX",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExtY",
+            "alias": "ExtY",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExtZ",
+            "alias": "ExtZ",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DocName",
+            "alias": "DocName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DocPath",
+            "alias": "DocPath",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DocType",
+            "alias": "DocType",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DocVer",
+            "alias": "DocVer",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "italfer_litologia - FINALE_5_GB_dwg_Polygon",
+      "id": "italfer_litologia_6632",
+      "layer": {
+        "url": "http://services1.arcgis.com/cFi1BRRsYB2fYqCl/arcgis/rest/services/italfer_litologia/FeatureServer/18",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Entity",
+            "alias": "Entity",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Handle",
+            "alias": "Handle",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Layer",
+            "alias": "Layer",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LyrFrzn",
+            "alias": "LyrFrzn",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrLock",
+            "alias": "LyrLock",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrOn",
+            "alias": "LyrOn",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrVPFrzn",
+            "alias": "LyrVPFrzn",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrHandle",
+            "alias": "LyrHandle",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Color",
+            "alias": "Color",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EntColor",
+            "alias": "EntColor",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrColor",
+            "alias": "LyrColor",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BlkColor",
+            "alias": "BlkColor",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Linetype",
+            "alias": "Linetype",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "EntLinetype",
+            "alias": "EntLinetype",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LyrLnType",
+            "alias": "LyrLnType",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "BlkLinetype",
+            "alias": "BlkLinetype",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Elevation",
+            "alias": "Elevation",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Thickness",
+            "alias": "Thickness",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LineWt",
+            "alias": "LineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "EntLineWt",
+            "alias": "EntLineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "LyrLineWt",
+            "alias": "LyrLineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "BlkLineWt",
+            "alias": "BlkLineWt",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "RefName",
+            "alias": "RefName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "LTScale",
+            "alias": "LTScale",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExtX",
+            "alias": "ExtX",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExtY",
+            "alias": "ExtY",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "ExtZ",
+            "alias": "ExtZ",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "DocName",
+            "alias": "DocName",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DocPath",
+            "alias": "DocPath",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DocType",
+            "alias": "DocType",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DocVer",
+            "alias": "DocVer",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Dati_Nodo_FI - Schema_assi_tracciato",
+      "id": "Dati_Nodo_FI_6231",
+      "layer": {
+        "url": "http://services1.arcgis.com/cFi1BRRsYB2fYqCl/arcgis/rest/services/Dati_Nodo_FI/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "CENTER",
+            "alias": "CENTER",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ATTTYP",
+            "alias": "ATTTYP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DESC_",
+            "alias": "DESC",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FEATTYP",
+            "alias": "FEATTYP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "TAVNAME",
+            "alias": "TAVNAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "KM_FIN",
+            "alias": "KM_FIN",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "KM_INI",
+            "alias": "KM_INI",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CODEC",
+            "alias": "CODEC",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FeatId",
+            "alias": "FeatId",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Dati_Nodo_FI - Schema_viabilita",
+      "id": "Dati_Nodo_FI_4690",
+      "layer": {
+        "url": "http://services1.arcgis.com/cFi1BRRsYB2fYqCl/arcgis/rest/services/Dati_Nodo_FI/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "CENTER",
+            "alias": "CENTER",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DESC_",
+            "alias": "DESC",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "TAVNAME",
+            "alias": "TAVNAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FEATTYP",
+            "alias": "FEATTYP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ATTTYP",
+            "alias": "ATTTYP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CODEC",
+            "alias": "CODEC",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FeatId",
+            "alias": "FeatId",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Dati_Nodo_FI - Schema_opere",
+      "id": "Dati_Nodo_FI_1591",
+      "layer": {
+        "url": "http://services1.arcgis.com/cFi1BRRsYB2fYqCl/arcgis/rest/services/Dati_Nodo_FI/FeatureServer/2",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "CENTER",
+            "alias": "CENTER",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DESC_",
+            "alias": "DESC",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "TAVNAME",
+            "alias": "TAVNAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FEATTYP",
+            "alias": "FEATTYP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ATTTYP",
+            "alias": "ATTTYP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CODEC",
+            "alias": "CODEC",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FeatId",
+            "alias": "FeatId",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Dati_Nodo_FI - Schema_cantieri",
+      "id": "Dati_Nodo_FI_6011",
+      "layer": {
+        "url": "http://services1.arcgis.com/cFi1BRRsYB2fYqCl/arcgis/rest/services/Dati_Nodo_FI/FeatureServer/3",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "CENTER",
+            "alias": "CENTER",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "DESC_",
+            "alias": "DESC",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "NAME",
+            "alias": "NAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "TAVNAME",
+            "alias": "TAVNAME",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "FEATTYP",
+            "alias": "FEATTYP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "ATTTYP",
+            "alias": "ATTTYP",
+            "show": true,
+            "format": null
+          },
+          {
+            "name": "CODEC",
+            "alias": "CODEC",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "FeatId",
+            "alias": "FeatId",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "",
+            "show": false,
+            "format": null
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true
+}

@@ -1,0 +1,59 @@
+{
+  "distanceUnits": [
+    {
+      "unit": "KILOMETERS",
+      "abbr": "km"
+    },
+    {
+      "unit": "MILES",
+      "abbr": "miglio"
+    },
+    {
+      "unit": "METERS",
+      "abbr": "m"
+    },
+    {
+      "unit": "FEET",
+      "abbr": "ft"
+    },
+    {
+      "unit": "YARDS",
+      "abbr": "yd"
+    },
+    {
+      "unit": "NAUTICAL_MILES",
+      "abbr": "mn"
+    }
+  ],
+  "areaUnits": [
+    {
+      "unit": "SQUARE_KILOMETERS",
+      "abbr": "km²"
+    },
+    {
+      "unit": "SQUARE_MILES",
+      "abbr": "miglio²"
+    },
+    {
+      "unit": "ACRES",
+      "abbr": "ac"
+    },
+    {
+      "unit": "HECTARES",
+      "abbr": "ha"
+    },
+    {
+      "unit": "SQUARE_METERS",
+      "abbr": "m²"
+    },
+    {
+      "unit": "SQUARE_FEET",
+      "abbr": "ft²"
+    },
+    {
+      "unit": "SQUARE_YARDS",
+      "abbr": "yd²"
+    }
+  ],
+  "isOperationalLayer": true
+}

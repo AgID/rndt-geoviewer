@@ -1,0 +1,922 @@
+{
+  "mainPanelIcon": "",
+  "layerInfos": [
+    {
+      "layer": "AreaMovida_9770_0",
+      "label": "Area Movida [2013]",
+      "refresh": false,
+      "url": "https://geoportale.comune.milano.it/arcgis/rest/services/OperationalLayers/AreaMovida/MapServer/0",
+      "id": "AreaMovida_9770_0",
+      "symbolData": {
+        "symbolType": "LayerSymbol",
+        "symbol": {
+          "color": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outline": {
+            "color": [
+              115,
+              0,
+              0,
+              255
+            ],
+            "width": 2,
+            "type": "esriSLS",
+            "style": "esriSLSSolid"
+          },
+          "type": "esriSFS",
+          "style": "esriSFSSolid"
+        },
+        "clusteringEnabled": false,
+        "_highLightColor": "#ffffff",
+        "iconType": "CustomIcon",
+        "renderer": {
+          "_cache": {
+            "rotationInfo": {
+              "hasExpr": false,
+              "compiledFunc": null,
+              "syntaxTree": null,
+              "isScaleDriven": false,
+              "dependsOnView": false,
+              "isJSFunc": false,
+              "version": 1
+            },
+            "colorInfo": {
+              "hasExpr": false,
+              "compiledFunc": null,
+              "syntaxTree": null,
+              "isScaleDriven": false,
+              "dependsOnView": false,
+              "isJSFunc": false,
+              "version": 2
+            },
+            "opacityInfo": {
+              "hasExpr": false,
+              "compiledFunc": null,
+              "syntaxTree": null,
+              "isScaleDriven": false,
+              "dependsOnView": false,
+              "isJSFunc": false,
+              "version": 3
+            }
+          },
+          "values": [
+            "ARCO DELLA PACE",
+            "BRERA",
+            "CORSO COMO",
+            "NAVIGLI",
+            "P.TA VENEZIA",
+            "PAOLO SARPI",
+            "PARCO DELLE BASILICHE"
+          ],
+          "_symbols": {
+            "ARCO DELLA PACE": {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 115,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "ARCO DELLA PACE",
+              "label": "ARCO DELLA PACE",
+              "description": ""
+            },
+            "BRERA": {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 115,
+                    "g": 115,
+                    "b": 0
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "BRERA",
+              "label": "BRERA",
+              "description": ""
+            },
+            "CORSO COMO": {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 230,
+                    "g": 76,
+                    "b": 0
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "CORSO COMO",
+              "label": "CORSO COMO",
+              "description": ""
+            },
+            "NAVIGLI": {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 0,
+                    "g": 76,
+                    "b": 115
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "NAVIGLI",
+              "label": "NAVIGLI",
+              "description": ""
+            },
+            "P.TA VENEZIA": {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 76,
+                    "g": 0,
+                    "b": 115
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "P.TA VENEZIA",
+              "label": "P.TA VENEZIA",
+              "description": ""
+            },
+            "PAOLO SARPI": {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 230,
+                    "g": 152,
+                    "b": 0
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "PAOLO SARPI",
+              "label": "PAOLO SARPI",
+              "description": ""
+            },
+            "PARCO DELLE BASILICHE": {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 230,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "PARCO DELLE BASILICHE",
+              "label": "PARCO DELLE BASILICHE",
+              "description": ""
+            }
+          },
+          "infos": [
+            {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 115,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "style": "solid",
+                  "_inherited": {
+                    "p": 2
+                  }
+                },
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "value": "ARCO DELLA PACE",
+              "label": "ARCO DELLA PACE",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 115,
+                    "g": 115,
+                    "b": 0
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "BRERA",
+              "label": "BRERA",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 230,
+                    "g": 76,
+                    "b": 0
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "CORSO COMO",
+              "label": "CORSO COMO",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 0,
+                    "g": 76,
+                    "b": 115
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "NAVIGLI",
+              "label": "NAVIGLI",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 76,
+                    "g": 0,
+                    "b": 115
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "P.TA VENEZIA",
+              "label": "P.TA VENEZIA",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 230,
+                    "g": 152,
+                    "b": 0
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "PAOLO SARPI",
+              "label": "PAOLO SARPI",
+              "description": ""
+            },
+            {
+              "symbol": {
+                "style": "solid",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0
+                },
+                "outline": {
+                  "width": 2.6666666666666665,
+                  "color": {
+                    "r": 230,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "style": "solid"
+                }
+              },
+              "value": "PARCO DELLE BASILICHE",
+              "label": "PARCO DELLE BASILICHE",
+              "description": ""
+            }
+          ],
+          "defaultSymbol": null,
+          "attributeField": "AREA_MOVIDA",
+          "attributeField2": null,
+          "attributeField3": null,
+          "fieldDelimiter": ", ",
+          "_multiple": false,
+          "defaultLabel": null,
+          "_compiledFunc": null,
+          "_inherited": {
+            "p": 1
+          }
+        },
+        "s": "",
+        "svg": {
+          "dojoattrid": 9
+        },
+        "panelHTML": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none; display: block; margin: auto;\"><defs></defs><path fill=\"rgb(0, 0, 0)\" fill-opacity=\"0\" stroke=\"rgb(115, 0, 0)\" stroke-opacity=\"1\" stroke-width=\"2.6666666666666665\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></path></svg>",
+        "userDefinedSymbol": false,
+        "layerId": "AreaMovida_9770_0",
+        "selectedId": "imageGFX_0",
+        "featureDisplayOptions": {
+          "groupEnabled": true,
+          "groupByRenderer": true,
+          "groupByField": false,
+          "fields": [
+            {
+              "name": "AREA_MOVIDA",
+              "label": ""
+            }
+          ],
+          "groupField": {
+            "name": "OBJECTID",
+            "label": ""
+          },
+          "groupByRendererOptions": {
+            "fields": [
+              {
+                "name": "AREA_MOVIDA"
+              }
+            ],
+            "values": [
+              {
+                "value": " === 'ARCO DELLA PACE'",
+                "label": "ARCO DELLA PACE"
+              },
+              {
+                "value": " === 'BRERA'",
+                "label": "BRERA"
+              },
+              {
+                "value": " === 'CORSO COMO'",
+                "label": "CORSO COMO"
+              },
+              {
+                "value": " === 'NAVIGLI'",
+                "label": "NAVIGLI"
+              },
+              {
+                "value": " === 'P.TA VENEZIA'",
+                "label": "P.TA VENEZIA"
+              },
+              {
+                "value": " === 'PAOLO SARPI'",
+                "label": "PAOLO SARPI"
+              },
+              {
+                "value": " === 'PARCO DELLE BASILICHE'",
+                "label": "PARCO DELLE BASILICHE"
+              }
+            ]
+          }
+        }
+      },
+      "geometryType": "esriGeometryPolygon",
+      "parentLayerID": "AreaMovida_9770",
+      "renderer": {
+        "_cache": {
+          "rotationInfo": {
+            "hasExpr": false,
+            "compiledFunc": null,
+            "syntaxTree": null,
+            "isScaleDriven": false,
+            "dependsOnView": false,
+            "isJSFunc": false,
+            "version": 1
+          },
+          "colorInfo": {
+            "hasExpr": false,
+            "compiledFunc": null,
+            "syntaxTree": null,
+            "isScaleDriven": false,
+            "dependsOnView": false,
+            "isJSFunc": false,
+            "version": 2
+          },
+          "opacityInfo": {
+            "hasExpr": false,
+            "compiledFunc": null,
+            "syntaxTree": null,
+            "isScaleDriven": false,
+            "dependsOnView": false,
+            "isJSFunc": false,
+            "version": 3
+          }
+        },
+        "values": [
+          "ARCO DELLA PACE",
+          "BRERA",
+          "CORSO COMO",
+          "NAVIGLI",
+          "P.TA VENEZIA",
+          "PAOLO SARPI",
+          "PARCO DELLE BASILICHE"
+        ],
+        "_symbols": {
+          "ARCO DELLA PACE": {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 115,
+                  "g": 0,
+                  "b": 0
+                },
+                "style": "solid"
+              }
+            },
+            "value": "ARCO DELLA PACE",
+            "label": "ARCO DELLA PACE",
+            "description": ""
+          },
+          "BRERA": {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 115,
+                  "g": 115,
+                  "b": 0
+                },
+                "style": "solid"
+              }
+            },
+            "value": "BRERA",
+            "label": "BRERA",
+            "description": ""
+          },
+          "CORSO COMO": {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 230,
+                  "g": 76,
+                  "b": 0
+                },
+                "style": "solid"
+              }
+            },
+            "value": "CORSO COMO",
+            "label": "CORSO COMO",
+            "description": ""
+          },
+          "NAVIGLI": {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 0,
+                  "g": 76,
+                  "b": 115
+                },
+                "style": "solid"
+              }
+            },
+            "value": "NAVIGLI",
+            "label": "NAVIGLI",
+            "description": ""
+          },
+          "P.TA VENEZIA": {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 76,
+                  "g": 0,
+                  "b": 115
+                },
+                "style": "solid"
+              }
+            },
+            "value": "P.TA VENEZIA",
+            "label": "P.TA VENEZIA",
+            "description": ""
+          },
+          "PAOLO SARPI": {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 230,
+                  "g": 152,
+                  "b": 0
+                },
+                "style": "solid"
+              }
+            },
+            "value": "PAOLO SARPI",
+            "label": "PAOLO SARPI",
+            "description": ""
+          },
+          "PARCO DELLE BASILICHE": {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 230,
+                  "g": 0,
+                  "b": 0
+                },
+                "style": "solid"
+              }
+            },
+            "value": "PARCO DELLE BASILICHE",
+            "label": "PARCO DELLE BASILICHE",
+            "description": ""
+          }
+        },
+        "infos": [
+          {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 115,
+                  "g": 0,
+                  "b": 0
+                },
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "ARCO DELLA PACE",
+            "label": "ARCO DELLA PACE",
+            "description": ""
+          },
+          {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 115,
+                  "g": 115,
+                  "b": 0
+                },
+                "style": "solid"
+              }
+            },
+            "value": "BRERA",
+            "label": "BRERA",
+            "description": ""
+          },
+          {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 230,
+                  "g": 76,
+                  "b": 0
+                },
+                "style": "solid"
+              }
+            },
+            "value": "CORSO COMO",
+            "label": "CORSO COMO",
+            "description": ""
+          },
+          {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 0,
+                  "g": 76,
+                  "b": 115
+                },
+                "style": "solid"
+              }
+            },
+            "value": "NAVIGLI",
+            "label": "NAVIGLI",
+            "description": ""
+          },
+          {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 76,
+                  "g": 0,
+                  "b": 115
+                },
+                "style": "solid"
+              }
+            },
+            "value": "P.TA VENEZIA",
+            "label": "P.TA VENEZIA",
+            "description": ""
+          },
+          {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 230,
+                  "g": 152,
+                  "b": 0
+                },
+                "style": "solid"
+              }
+            },
+            "value": "PAOLO SARPI",
+            "label": "PAOLO SARPI",
+            "description": ""
+          },
+          {
+            "symbol": {
+              "style": "solid",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "outline": {
+                "width": 2.6666666666666665,
+                "color": {
+                  "r": 230,
+                  "g": 0,
+                  "b": 0
+                },
+                "style": "solid"
+              }
+            },
+            "value": "PARCO DELLE BASILICHE",
+            "label": "PARCO DELLE BASILICHE",
+            "description": ""
+          }
+        ],
+        "defaultSymbol": null,
+        "attributeField": "AREA_MOVIDA",
+        "attributeField2": null,
+        "attributeField3": null,
+        "fieldDelimiter": ", ",
+        "_multiple": false,
+        "defaultLabel": null,
+        "_compiledFunc": null,
+        "_inherited": {
+          "p": 1
+        }
+      },
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "N",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "N"
+        },
+        {
+          "name": "VAL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VAL"
+        },
+        {
+          "name": "TIP",
+          "type": "esriFieldTypeString",
+          "alias": "TIP",
+          "length": 50
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "AREA_MOVIDA",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_MOVIDA",
+          "length": 50
+        }
+      ],
+      "subLayerId": 0,
+      "panelImageData": "<svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none; display: block; margin: auto;\"><defs></defs><path fill=\"rgb(0, 0, 0)\" fill-opacity=\"0\" stroke=\"rgb(115, 0, 0)\" stroke-opacity=\"1\" stroke-width=\"2.6666666666666665\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></path></svg>",
+      "imageData": "<div class=\"imageDataGFX imageDataGFX2 lyrSymbolSelected\" id=\"imageGFX_0\"><svg overflow=\"hidden\" width=\"26\" height=\"26\" style=\"touch-action: none; display: block; margin: auto;\"><defs></defs><path fill=\"rgb(0, 0, 0)\" fill-opacity=\"0\" stroke=\"rgb(115, 0, 0)\" stroke-opacity=\"1\" stroke-width=\"2.6666666666666665\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"4\" path=\"M -10,-10 L 10,0 L 10,10 L -10,10 L -10,-10 Z\" d=\"M-10-10L 10 0L 10 10L-10 10L-10-10Z\" fill-rule=\"evenodd\" stroke-dasharray=\"none\" dojoGfxStrokeStyle=\"solid\" transform=\"matrix(1.00000000,0.00000000,0.00000000,1.00000000,13.00000000,13.00000000)\"></path></svg></div>"
+    }
+  ],
+  "mapID": "781ec5ee25924c8f82b8809ec78ec579",
+  "mainPanelText": "",
+  "refreshInterval": "",
+  "refreshEnabled": false,
+  "countEnabled": true,
+  "displayPanelIcon": false,
+  "hidePanel": false,
+  "continuousRefreshEnabled": false
+}
