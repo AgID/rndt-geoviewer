@@ -1,0 +1,74 @@
+{
+  "modelServiceFolder":"https://arc102.cnmca.meteoam.it/arcgis/rest",
+  "backendFolder": "https://arc102.cnmca.meteoam.it/arcgis/rest/services/WING_admin/BACKEND/MapServer/",
+  "nameInitModel": "WING_forecast_",
+  "arrayDisabledModel": [],
+  "selectedModel": 1,
+
+  "run":  {
+    "idLayer": 2,
+    "where": "wego_model_id = ${Model_id}",
+    "orderByFields": "run DESC",
+    "outFields":["*"],
+    "field": {
+      "wego_model_id": "wego_model_id",
+      "name": "run",
+      "id": "wego_timestep_id"
+    }
+  },
+
+  "model": {
+    "idLayer": 1,
+    "relationship": {
+      "idLyrRel": 12,
+      "outFields": "source_name,wego_model_id,wego_grid_id,source_family,wego_timestep_id",
+      "fields": {
+        "name": "source_name",
+        "id": "wego_model_id",
+        "gridId": "wego_grid_id",
+        "family": "source_family",
+        "timestep_id": "wego_timestep_id"
+      }
+    }
+  },
+
+  "timeStep": {
+    "idLayer": 9,
+    "where": "wego_timestep_id = ${timestepId}",
+    "field": {
+      "timestepid":"wego_timestep_id",
+      "n_hours": "step",
+      "gg": "end_",
+      "start": "start",
+      "end": "end_",
+      "step": "step"
+    },
+    "outFields": ["*"]
+  },
+  "sat":  {
+    "path":"https://arc102.cnmca.meteoam.it/arcgis/rest/services/WING_observations",
+    "idLayer": 13,
+    "where": "1=1",
+    "outFields": "OBJECTID"
+  },
+  "satName": {
+    "relationshipId": "9",
+    "field": {
+      "name": "PRODUCT_NAME",
+      "id": "PRODUCT_ID",
+      "path": "PRODUCT_PATH"
+    },
+    "outFields": ["*"]
+  },
+  "msg":  {
+    "path":"https://arc102.cnmca.meteoam.it/arcgis/rest/services/WING_bullettins"
+  },
+  "msgName": {
+    "relationshipId": "10",
+    "field": {
+      "name": "PRODUCT_NAME",
+      "id": "PRODUCT_ID",
+      "path": "PRODUCT_PATH"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+@import url("../common.css");
+
+.jimu-widget-bookmark{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.jimu-widget-bookmark .add-section{
+  position: relative; 
+  height: 30px; 
+  margin-top: 7px;
+  overflow: visible;
+}
+.jimu-widget-bookmark .input-bookmark-name{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.jimu-widget-bookmark .btn-add{
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  width: 30px;
+  z-index: 2;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #d9dde0;
+  cursor: pointer;
+}
+.jimu-widget-bookmark .btn-add .jimu-center-img{
+  border-top: 1px solid rgba(255, 255, 255, 0.2); 
+  background-image: url(images/add.png);
+}
+.jimu-widget-bookmark .jimu-state-error{
+  margin-top: 4px;
+  visibility: hidden;
+}
+.jimu-widget-bookmark .play-section{
+  overflow: hidden;
+  margin-top: 20px;
+}
+.jimu-widget-bookmark .jimu-btn .jimu-btn-report{
+  float: none;
+  margin: auto;
+  width: 300px;
+}
+
+.FoldableTheme.green .jimu-widget-bookmark .btn-add{
+  background-color: #80dbc5;
+}
+
+.FoldableTheme.cyan .jimu-widget-bookmark .btn-add{
+  background-color: #d5d5d4;
+}
+
+.jimu-rtl .jimu-widget-bookmark .btn-add{
+  left: 1px;
+  right: auto;
+}
+
+.chartreports-buttons DIV{
+  /*padding:5px;*/
+}
+/******************************************************************************/
+.chartreports-button-pie{
+    background-image: url("./images/pie.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+.chartreports-button-trulia{
+    background-image: url("./images/trulia.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+.chartreports-button-donut{
+    background-image: url("./images/donut.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+.chartreports-button-line{
+    background-image: url("./images/line.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+.chartreports-button-istogram{
+    background-image: url("./images/istogram.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+.chartreports-button-option{
+    background-image: url("./images/options.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+
+.chartreports-buttons SPAN{
+  padding:5px;
+}
+.chartreports-buttons DIV.container{
+  border: solid 1px grey ;
+  margin-bottom: 6px;
+}
+.chartreports-buttons DIV.options{
+  padding:5px;
+}
+
+.chartreports-buttons DIV.options SELECT{
+  padding:2px;
+  margin:5px;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}

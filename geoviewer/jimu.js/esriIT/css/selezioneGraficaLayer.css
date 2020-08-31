@@ -1,0 +1,28 @@
+.selezioneGraficaLayer .dijitTitlePaneContentInner ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.selezioneGraficaLayer .dijitTitlePaneContentInner ul ul {
+    padding-left: 20px;
+}
+
+div.loaderOverlay {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+}
+
+div.loaderOverlay span {
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 100%;
+    position: relative;
+    vertical-align: middle;
+    margin-top: 50px;
+    font-size: 20px;
+}
