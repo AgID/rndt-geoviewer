@@ -1,0 +1,19 @@
+h1 {
+  color: #00655d  ;
+}
+h2 {
+  color: #00332f ;
+}
+a {
+  color: MediumBlue;
+}
+img { border: 1px solid  #191970; }
+.navbar img {border: none;}
+
+
+.titleCustom{
+    color: #00655d;
+    font-size: 25px;
+    display: inline-block;
+	margin-left: 30px;
+}
