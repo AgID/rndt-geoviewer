@@ -1,12 +1,9 @@
 # Geoviewer RNDT
-Visualizzatore per il portale RNDT
 
-I requisiti minimi per eseguire il software sono i seguenti:
+La soluzione consiste in un viewer che permette di ricercare, visualizzare risorse geografiche disponibili sul Web. Il viewer permette di effettuare sovrapposizioni di servizi mappa (REST, WMS, WFS) e di file Shapefile, CSV, GPX o GeoJSON aggiunti dall'esterno o caricati dopo ricerche nel catalogo di metadati.
 
-- Sistema operativo (Linux o Windows)
-- Apache Web server (2.4.6) (o IIS 7 o 8) installato e attivo
-- PHP 7.1 installato e configurato inclusa estensione per mysql, mbstring e ldap
-- Joomla 3.8 con estensione Shmanic LDAP.
+Una installazione funzionante è il [**geoviewer**](https://geodati.gov.it/geoportale/geoviewer/) disponibile nel portale RNDT.
+
 
 ## Documentazione
 
