@@ -5,8 +5,6 @@ I requisiti minimi per eseguire il software sono i seguenti:
 - Sistema operativo (Linux o Windows)
 - Apache Web server (2.4.6) (o IIS 7 o 8) installato e attivo
 - PHP 7.1 installato e configurato inclusa estensione per mysql, mbstring e ldap
-- Joomla 3.8 con estensione Shmanic LDAP.
-- la copia della 
 
 ## Installazione
 
