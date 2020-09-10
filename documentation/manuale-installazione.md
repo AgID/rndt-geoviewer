@@ -6,13 +6,15 @@ I requisiti minimi per eseguire il software sono i seguenti:
 - Apache Web server (2.4.6) (o IIS 7 o 8) installato e attivo
 - PHP 7.1 installato e configurato inclusa estensione per mysql, mbstring e ldap
 
+L'installazione del geoviewer presuppone, inoltre, l'installazione della soluzione [**geoportale**](https://github.com/AgID/rndt-joomla-template).
+
 ## Installazione
 
 L&#39;installazione del geoviewer consiste in:
 
-- copia della cartella [geoviewer](../geoviewer) nella propria installazione <webserver>/geoportale. Il geoviewer può essere installato anche in altre posizioni, ma poi bisogna fare attenzione che i riferimenti dal menu Joomla e dalle webapp (gpt.xml) siano corretti;
+- copia della cartella [```geoviewer```](../geoviewer) nella propria installazione ```<webserver>/geoportale```. Il geoviewer può essere installato anche in altre posizioni, facendo attenzione che i riferimenti dal menu Joomla e dalle webapp (gpt.xml) siano corretti;
   
-- copia della cartella proxy4 (Windows) o proxyPHP in <webserver>/geoportale (ad.es. /var/www/html/geoportale/proxyPHP oppure C:\inetpub\www\geoportale\proxy4). In Windows, è anche necessario convertire proxy4 in applicazione Aspx. Il proxy è necessario per superare le eccezioni di sicurezza per il caricamento di WMS da altri siti (CORS).
+- copia della cartella [```proxy4```](../proxy4) (Windows) o [```proxyPHP```](../proxyPHP) in ```<webserver>/geoportale``` (ad.es. /var/www/html/geoportale/proxyPHP oppure C:\inetpub\www\geoportale\proxy4). In Windows, è anche necessario convertire proxy4 in applicazione Aspx. Il proxy è necessario per superare le eccezioni di sicurezza per il caricamento di WMS da altri siti (CORS).
   
 ## Configurazione
 
