@@ -1,6 +1,6 @@
 # Geoviewer RNDT
 
-La soluzione consiste in un viewer che permette di ricercare, visualizzare risorse geografiche disponibili sul Web. Il viewer permette di effettuare sovrapposizioni di servizi mappa (REST, WMS, WFS) e di file Shapefile, CSV, GPX o GeoJSON aggiunti dall'esterno o caricati dopo ricerche nel catalogo di metadati.
+La soluzione consiste in un viewer che permette di ricercare e visualizzare risorse geografiche disponibili sul Web. Il viewer permette di effettuare sovrapposizioni di servizi mappa (REST, WMS, WFS) e di file Shapefile, CSV, GPX o GeoJSON, oltre a ricerche nel catalogo di metadati.
 
 Una installazione funzionante è il [**geoviewer**](https://geodati.gov.it/geoportale/geoviewer/) disponibile nel portale RNDT.
 
