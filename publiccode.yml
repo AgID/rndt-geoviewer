@@ -1,0 +1,69 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: RNDT
+categories:
+  - cad
+  - geographic-information-systems
+description:
+  it:
+    documentation: 'https://github.com/AgID/rndt-geoviewer'
+    features:
+      - >-
+        Visualizzatore che permette di ricercare e visualizzare risorse geografiche disponibili sul Web.
+    genericName: Catalogo metadati RNDT
+    longDescription: >
+      **Geoviewer RNDT** è una soluzione che consiste in un visualizzatore che permette di ricercare e visualizzare risorse geografiche disponibili sul Web.
+      
+      
+      Il viewer permette di effettuare sovrapposizioni di servizi mappa (REST, WMS, WFS) e di file Shapefile, CSV, GPX o GeoJSON, oltre a ricerche nel catalogo di metadati.
+      
+      
+      Una installazione funzionante è il [**geoviewer**](https://geodati.gov.it/geoportale/geoviewer/) disponibile nel portale RNDT.
+    screenshots:
+      - >-
+        https://raw.githubusercontent.com/AgID/rndt-geoviewer/master/documentation/images/geoviewer.png
+    shortDescription: >-
+      Visualizzatore per risorse geografiche disponibili sul Web.
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: agid
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Agenzia per l'Italia Digitale
+  repoOwner: Agenzia per l'Italia Digitale
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+logo: >-
+  https://raw.githubusercontent.com/AgID/rndt-geoviewer/master/documentation/images/logo-rndt.png
+maintenance:
+  contractors:
+    - name: RTI Fastweb - Leonardo - SIA (sub-contractor ESRI Italia)
+      until: '2021-08-04'
+  type: contract
+name: Catalogo metadati RNDT
+platforms:
+  - windows
+  - linux
+  - ios
+  - mac
+releaseDate: '2020-06-21'
+softwareType: standalone/web
+softwareVersion: '2.0'
+url: 'https://github.com/AgID/rndt-geoviewer'
