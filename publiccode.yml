@@ -13,12 +13,12 @@ description:
     features:
       - >-
         Visualizzatore che permette di ricercare e visualizzare risorse geografiche disponibili sul Web.
-    genericName: Geoviewer RNDT
+    genericName: Catalogo metadati RNDT
     longDescription: >
       **Geoviewer RNDT** è una soluzione che consiste in un visualizzatore che permette di ricercare e visualizzare risorse geografiche disponibili sul Web.
       
       
-      Il viewer permette di effettuare sovrapposizioni di servizi mappa (REST, WMS, WFS) e di file Shapefile, CSV, GPX o GeoJSON, oltre a ricerche nel catalogo di metadati.
+      Il visualizzatore permette di effettuare sovrapposizioni di servizi mappa (REST, WMS, WFS) e di file Shapefile, CSV, GPX o GeoJSON, oltre a ricerche nel catalogo di metadati. Include un servizio di geocodifica oltre a una galleria di mappe di base.
       
       
       Una installazione funzionante è il [**geoviewer**](https://geodati.gov.it/geoportale/geoviewer/) disponibile nel portale RNDT.
@@ -57,7 +57,7 @@ maintenance:
     - name: RTI Fastweb - Leonardo - SIA (sub-contractor ESRI Italia)
       until: '2021-08-04'
   type: contract
-name: Geoviewer RNDT
+name: Catalogo metadati RNDT
 platforms:
   - windows
   - linux
