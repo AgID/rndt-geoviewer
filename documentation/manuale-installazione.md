@@ -20,7 +20,7 @@ Il Geoviewer viene configurato attraverso dei file json, a livello globale e a l
 
 Normalmente i widget non hanno bisogno di configurazione, tranne il widget di ricerca sul catalogo.
 
-I parametri globali sono da configurare nel file geoportale/geoviewer/config.json come nell'esempio seguente:
+I parametri globali sono da configurare nel file ```geoportale/geoviewer/config.json``` come nell'esempio seguente:
 
 ```json
 …
@@ -33,7 +33,7 @@ I parametri globali sono da configurare nel file geoportale/geoviewer/config.jso
 "url": "../proxy4/proxy.ashx" oppure "../proxyPHP/proxy.php"
 ```
 
-I parametri del widget di ricerca nel catalogo sono da configurare nel file geoportale/geoviewer/widgets/GeoportalSearch/config.json come nell'esempio seguente:
+I parametri del widget di ricerca nel catalogo sono da configurare nel file ```geoportale/geoviewer/widgets/GeoportalSearch/config.json``` come nell'esempio seguente:
 
 ```json
 "catalogs": [
