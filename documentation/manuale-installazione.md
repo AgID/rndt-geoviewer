@@ -6,8 +6,6 @@ I requisiti minimi per eseguire il software sono i seguenti:
 - Apache Web server (2.4.6) (o IIS 7 o 8) installato e attivo
 - PHP 7.1 installato e configurato inclusa estensione per mysql, mbstring e ldap
 
-L'installazione del geoviewer presuppone, inoltre, l'installazione della soluzione [**geoportale**](https://github.com/AgID/rndt-joomla-template).
-
 ## Installazione
 
 L&#39;installazione del geoviewer consiste in:
@@ -22,7 +20,7 @@ Il Geoviewer viene configurato attraverso dei file json, a livello globale e a l
 
 Normalmente i widget non hanno bisogno di configurazione, tranne il widget di ricerca sul catalogo.
 
-I parametri globali sono da configurare nel file geoportale/geoviewer/config.json verificando i seguenti valori:
+I parametri globali sono da configurare nel file geoportale/geoviewer/config.json come nell'esempio seguente:
 
 ```json
 …
@@ -35,7 +33,7 @@ I parametri globali sono da configurare nel file geoportale/geoviewer/config.jso
 "url": "../proxy4/proxy.ashx" oppure "../proxyPHP/proxy.php"
 ```
 
-I parametri del widget di ricerca nel catalogo sono da configurare nel file geoportale/geoviewer/widgets/GeoportalSearch/config.json verificando i seguenti valori:
+I parametri del widget di ricerca nel catalogo sono da configurare nel file geoportale/geoviewer/widgets/GeoportalSearch/config.json come nell'esempio seguente:
 
 ```json
 "catalogs": [
